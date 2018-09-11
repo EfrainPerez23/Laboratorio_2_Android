@@ -45,6 +45,7 @@
         android:layout_marginTop="148dp"
         android:onClick="sendEmail"
         android:text="Enviar Correo"
+        android:drawableRight="@android:drawable/ic_dialog_email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,14 +77,14 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
         android:layout_marginTop="188dp"
-        android:onClick="sendEmail"
+        android:background="@android:drawable/ic_menu_sort_by_size"
+        android:onClick="openContacts"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </android.support.constraint.ConstraintLayout>
